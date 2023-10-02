@@ -1,0 +1,51 @@
+    react navigation (Tab ve stack)
+                ------React Navigation:  ---->  npm i @react-navigation/native
+                                        ----->  expo install react-native-screens react-native-safe-area-context
+
+                ------- Stack Navigation: ----->   npm i @react-navigation/native-stack
+                                            -----> npm install @react-navigation/bottom-tabs
+
+
+	react-native-toast-message ----->   npm i react-native-toast-message
+
+	react-native-paper  ----> npm install react-native-paper
+
+	moment    ---------->  npm i moment
+
+	formik  --------->   npm i formik
+
+    yup   ---------->  npm i yup
+
+	expo-splash-screen ----> expo install expo-splash-screen
+
+	expo-secure-store  ----->  expo install expo-secure-store
+
+	axios   --------->  npm i axios
+
+     react-native-mask-text ------>  npm i react-native-mask-text
+
+     react-native-paper-dates ---->  npm i react-native-paper-dates
+
+
+     -->>>>>>>>>>>>>>>>>>>>>>>>>>>
+       - expo build yapıyor expo.dev.com dan takıp edebılırsın 
+       - expo kendı sunucusu uzzerınden build yapıyor.
+       - EAS expo-application-service 
+       npm install -g eas-cli   ( kurulum )
+       eas build:configure (build almak için )
+
+       eas.json da  
+         "production": {
+    
+      "android":{  
+        "buildType":"apk"
+      }
+    }
+    apk oldugu ıcın apk alıyor default degeri app-bundle dır.
+    ancak play store a yuklenırken app bundle olarak yuklemek gerek buildType :"apk" silindiğinde 
+    default olarak app bundle olarak yukleyecektır.
+
+
+
+
+

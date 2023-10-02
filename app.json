@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "speedlyapp",
+    "slug": "speedlyapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-car.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.halilibrahimyavuz.speedlyApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ca33c77-784e-4ea6-9590-82e034281ce7"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+const colors = {
+    color1: "rgb(0, 210, 49)",
+    color2: "rgb(17, 46, 59)",
+    color3: "rgb(2, 108, 26)",
+    color4: "rgba(0, 210, 49, 0.4)",
+    color5: "rgba(17, 46, 59, 0.4)",
+    color6: "rgb(50,50,50)",
+};
+
+export default colors;
